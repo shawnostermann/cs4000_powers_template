@@ -7,6 +7,7 @@ all: ${TARGETS}
 
 
 test: $(TARGETS)
+	chmod a+rx ./test.*
 	./test.17
 	./test.39
 	./test.55
