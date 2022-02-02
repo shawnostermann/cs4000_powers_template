@@ -13,6 +13,12 @@ test: $(TARGETS)
 	-./test.55
 	-./test.101
 	-./test.1001
+	-./test.s.10000
+	-./test.s.9837
+	-./test.s.10211
+	-./test.s.10017
+	-./test.s.9978
+	
 
 clean:
 	rm -f $(TARGETS) *.o test.*.myoutput test.*.correct
