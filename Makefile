@@ -1,13 +1,13 @@
 CXX=g++
 CPPFLAGS=-Wall -Werror -O2 -fopenmp
-LDLIBS=-lomp
+LDLIBS=
 
 TARGETS=boost_version my_parallel
 
 all: ${TARGETS}
 
 
-test: $(TARGETS)
+test: my_parallel
 	-chmod a+rx ./test.*
 	-./test.17
 	-./test.39
