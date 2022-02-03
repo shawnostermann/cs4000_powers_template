@@ -1,6 +1,5 @@
 CXX=g++
 CPPFLAGS=-Wall -Werror -O2 -fopenmp
-LDLIBS=
 
 TARGETS=boost_version my_parallel
 
